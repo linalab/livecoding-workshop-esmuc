@@ -1,4 +1,4 @@
-# Mercury Tutorial ES
+# Mercury 
 
 Esta es una hoja de trabajo para ver lo que hemos hecho durante el taller, basado en los tutoriales y referencia de Marcury de Timo Hoogland.
 
@@ -8,7 +8,7 @@ Esta es una hoja de trabajo para ver lo que hemos hecho durante el taller, basad
 
 Mercury funciona mejor en navegadores como Brave o Google Chrome. No utilices safari o bing si quieres evitar resultados extraños
 
-### [**https://mercury-playground.pages.dev/](https://mercury-playground.pages.dev/)**
+### [**https://mercury-playground.pages.dev/](https://mercury-playground.pages.dev/**)
 
 (Mercury también tiene otras versiones, puedes encontrar más información sobre la versión original que funciona en Max8 (sólo Windows/Mac) [aquí](https://github.com/tmhglnd/mercury))
 
