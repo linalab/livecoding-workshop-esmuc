@@ -26,7 +26,7 @@ Las acciones que puedes hacer en Mercury son:
 
 Todas las funciones que vamos a ver a continuación (y más) se encuentra en: [https://tmhglnd.github.io/mercury/reference.html](https://tmhglnd.github.io/mercury/reference.html)  y en los tutoriales incluidos en mercury
 
-# ⚫ `sample`
+#  `sample`
 
 Para reproducir sonidos los podemos llamar un nuevo `sample`
 
@@ -44,7 +44,7 @@ Ahora presiona `alt + .` (o clica en `silence`) para silenciar los sonidos
 
 # Funciones
 
-## ⚫`time()`
+## `time()`
 
 [https://tmhglnd.github.io/mercury/02-instrument.html#time](https://tmhglnd.github.io/mercury/02-instrument.html#time) 
 
@@ -66,7 +66,7 @@ new sample kick_house time(1/3)
 new sample snare_808 time(1/2)
 ```
 
-## ⚫ `tempo`
+##  `tempo`
 
 Para cambiar los BPM utilizamos `set tempo` y los BPM que queremos utilizar
 
@@ -78,7 +78,7 @@ new sample scrape time(1/3)
 new sample tongue time(1/2)
 ```
 
-## ⚫`list`
+## `list`
 
 con `list` generamos listas de diferentes tipos, necesitamos nombrarla
 
@@ -102,7 +102,7 @@ new sample scrape time(1/3)
 new sample tongue time(1/2)
 ```
 
-## ⚫`play(1)`
+## `play(1)`
 
 Con play podemos decidir cuando se ejecutan los samples con `1` se ejecutan y con `0` no…
 
@@ -115,11 +115,11 @@ new sample hat_click time(1/12) play(rtm)
 
 También podemos utilizar números decimales para definir la probabilidad con la que esos sonidos se ejecutan, por ejemplo `play(0.5)` se ejecuta con una probabilidad del 50%
 
-## ⚫ `speed(1)`
+##  `speed(1)`
 
 Modifica la velocidad de reproducción, la velocidad normal es `1`
 
-## ⚫ `offset(0.5)`
+##  `offset(0.5)`
 
 modifica el punto en el que se comienza a reproducir el sample `0` es el punto inicial y `1` es el final del sonido
 
@@ -127,7 +127,7 @@ modifica el punto en el que se comienza a reproducir el sample `0` es el punto i
 new sample amen speed(0.5) offset(0.5) 
 ```
 
-## ⚫ `shape(10 100)`
+## `shape(10 100)`
 
 Genera una envolvente dinámica que modifica la duración del sonido en milisegundos `shape(500 100)` .  También puede definirse con divisiones de tempo: `shape(1/4 1/32)`  
 
