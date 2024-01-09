@@ -6,7 +6,7 @@ Para este taller utilizaremos la versión Web de mercury, que se ejecuta en el n
 
 Mercury funciona mejor en navegadores como Brave o Google Chrome. No utilices safari o bing si quieres evitar resultados extraños
 
-### [**https://mercury-playground.pages.dev/](https://mercury-playground.pages.dev/**)
+### [https://mercury-playground.pages.dev/](https://mercury-playground.pages.dev/**)
 
 (Mercury también tiene otras versiones, puedes encontrar más información sobre la versión original que funciona en Max8 (sólo Windows/Mac) [aquí](https://github.com/tmhglnd/mercury))
 
