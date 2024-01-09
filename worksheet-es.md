@@ -1,10 +1,8 @@
-# Mercury 
+# 💻  Mercury
 
 Esta es una hoja de trabajo para ver lo que hemos hecho durante el taller, basado en los tutoriales y referencia de Marcury de Timo Hoogland.
 
-# 💻  Mercury
-
- Para este taller utilizaremos la versión Web de mercury, que se ejecuta en el navegador (Windows/Mac/Linux)👇
+Para este taller utilizaremos la versión Web de mercury, que se ejecuta en el navegador (Windows/Mac/Linux)👇
 
 Mercury funciona mejor en navegadores como Brave o Google Chrome. No utilices safari o bing si quieres evitar resultados extraños
 
