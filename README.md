@@ -2,3 +2,4 @@
 worksheets and sounds for live coding workshop at ESMUC
 
 - [Mercury](worksheet-es.md)
+- [Hydra](Hydra.md)
