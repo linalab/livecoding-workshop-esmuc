@@ -170,3 +170,43 @@ new sample crow time(1/4)
 ```
 
 ---
+
+
+# `synth`
+
+En Mercury podemos también sintetizar sonidos a partir de formas de onda
+
+```jsx
+new synth saw
+```
+
+Podemos usar `square`, `triangle`, `sine`, `organ`
+
+## **`note()`**
+
+Podemos cambiar la frecuencia de esa forma de onda con note:
+
+```jsx
+new synth saw note(0 1) // note(note octave)
+```
+
+note tiene 2 parámetros: 
+
+el primer número es la nota de la escala, en este caso 0 es C, y el segundo parámetro es la octava. Podemos también utilizar listas para cambiar las notas. 
+
+```jsx
+list mel [0 3 0 5 9]
+new synth saw note(mel 1) time(1/8)
+```
+
+En synth también podemos incluir `shape()`,`time`, `play()`
+
+## `super()`
+
+Añade varios osciladores al unísono con un factor de desafinación. El oscilador principal será siempre la frecuencia base de la nota(), los otros se afinan por encima y por debajo  basados en el factor de desafinación. El primer argumento establece la cantidad de osciladores (mínimo de 1, por defecto=1), el segundo argumento establece el factor de desafinación en semitonos. 
+
+```jsx
+list mel [0 3 0 5 9]
+new synth saw note(mel 1) time(1/8) super(5 0.3)// super(numOsc detune)
+```
+
